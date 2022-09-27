@@ -58,7 +58,7 @@ top: 0
 
 
 .wellcome{
-  background: url(wellcome-image1.jpg) no-repeat center center ;
+  background: url(Wellcome_image.png) no-repeat center center ;
   background-size: cover;
   height: 600px;
   overflow: hidden;
@@ -309,6 +309,67 @@ align-items: center;
 }
 
 
+/* Project Section */
+
+
+
+
+.dropbtn {
+  background-color: #050d2f;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+.project_show{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.projectimage{
+  width: 70%;
+  height: auto;
+  border: 100px;
+}
+
+
+.project-section{
+  background-color: #050d2f;
+}
 /* contact section */
 
 .contact{
@@ -355,3 +416,4 @@ align-items: center;
   padding: 0 auto;
 }
 }
+

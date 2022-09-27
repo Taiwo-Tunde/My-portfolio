@@ -1,9 +1,11 @@
 
 
-document.getElementById('email').addEventListener('onClick', function(){
-    return (  href="https://twitter.com/rashy606?t=NbGyMrcWqnhuxeRNX9Hzw&s=09" )
-})
+// let project_image1 = document.getElementById('project_image1')
+// project_image1.onclick = function() {myFunction()};
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
 
 
 
-console.log('taiwo')
