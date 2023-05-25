@@ -1,11 +1,15 @@
 
 
-// let project_image1 = document.getElementById('project_image1')
-// project_image1.onclick = function() {myFunction()};
 
+// function than handle onhovering through the project section
+var myDropdown = document.getElementsByClassName('my-dropdown')
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
+    console.log(myDropdown)
   }
 
 
-export default javascript;
+// function that handle transition
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelector('.container').classList.add('animate');
+});
