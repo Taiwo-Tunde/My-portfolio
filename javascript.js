@@ -8,4 +8,4 @@ function myFunction() {
   }
 
 
-
+export default javascript;
